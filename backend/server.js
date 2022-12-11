@@ -29,7 +29,7 @@ app.use(express.urlencoded({extended: false}))
 app.get('/exercise', (req,res))
 
 
-app.listen(PORT, async() {
+app.listen(PORT, async() => {
     console.log(`Server is up on port ${PORT}`)
-})
+});
 
